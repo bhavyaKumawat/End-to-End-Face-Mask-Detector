@@ -1,0 +1,15 @@
+channels:
+- conda-forge
+dependencies:
+- python=3.6.2
+- pip:
+  - azureml-core==1.35.0
+  - azureml-defaults==1.35.0
+  - azureml-telemetry==1.35.0
+  - azureml-train-restclients-hyperdrive==1.35.0
+  - azureml-train-core==1.35.0
+  - tensorflow-gpu==2.2.0
+  - horovod==0.19.5
+  - pillow
+  - joblib
+name: azureml_260aa382974222abaa2a86b0fcbe3971
