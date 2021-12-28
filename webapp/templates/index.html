@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Face Mask Detector</title>
+{% endblock %}
+
+{% block body %}
+
+
+<div>
+    <span><h1>COVID-19: Face Mask Detector</h1></span>
+    <form action = "/detect" method = "POST" enctype = "multipart/form-data">
+         <input type = "file" name = "image" />
+         <input type = "submit"/>
+    </form>
+</div>
+
+{% endblock %}
